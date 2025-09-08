@@ -1,10 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
+*{
+    margin:0;
+    padding:0;
+    font-family: serif bold;
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: Serif Bold;
     background-color: #111;
     color: #eee;
@@ -12,8 +13,7 @@ body {
     font-size: 1.25rem;
 }
 
-
-header {
+header{
     background-color: #75242b;
     padding: 17px 0;
     text-align: center;
@@ -21,11 +21,12 @@ header {
     top: 0;
 }
 
-header h1 {
+header h1{
     color: #f7f0c0;
     font-size: 2.4rem;
     letter-spacing: 2px;
 }
+
 
 nav ul {
     list-style: none;
@@ -53,15 +54,40 @@ main {
     padding: 0 25px;
 }
 
-article {
-    margin-bottom: 70px;
-    overflow: auto;
+h2{
+    letter-spacing: 1px;
+    float:left;
+    color:#f7f0c0;   
+    font-size: 2rem;
+}
+ 
+ul{
+    list-style: none;
+    gap: 35px;
+    margin-bottom: 15px;
 }
 
-article h2 {
-    color: #f7f0c0;
-    font-size: 2rem;
-    margin-bottom: 25px;
+img{
+    float: right;
+    margin: 25px 30px;
+    max-width: 55%;
+}
+
+table{
+    margin: auto;
+
+}
+
+h3{
+    text-align: center;
+    color:#f7f0c0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 article p {
@@ -69,29 +95,8 @@ article p {
     margin-bottom: 25px;
 }
 
-.img-right {
-    float: right;
-    margin: 25px 30px;
-    max-width: 45%;
-    border-radius: 10px;
-}
-
-.img-left {
-    float: left;
-    margin: 30px 25px 0;
-    max-width: 55%;
-    border-radius: 10px;
-}
-
-footer {
-    color: #eee;
-    text-align: center;
-    padding: 30px 0;
-    margin-top: 80px;
-}
-
-footer h3 {
+th{
     color: #f7f0c0;
-    margin-bottom: 15px;
-    font-size: 1.4rem;
 }
+
+td{color:#eee;}
