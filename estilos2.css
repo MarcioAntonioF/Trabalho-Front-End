@@ -22,9 +22,9 @@ header {
 header h1 {
     color: #f7f0c0;
     font-size: 2.4rem;
-    margin-bottom: 15px;
     letter-spacing: 2px;
 }
+
 
 nav ul {
     list-style: none;
@@ -56,11 +56,43 @@ article {
     overflow: auto;
 }
 
+
 article h2 {
+    text-align: left;
     color: #f7f0c0;
     font-size: 2rem;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-top: 40px;
+}
+
+article li {
+    text-align: left;
+}
+
+
+img {
+    float: right;
+    border-radius: 10px;
+    margin: 25px 30px;
+    max-width: 52%;
+}
+
+table {
+    margin: auto;
+}
+
+article h3 {
+    color: #f7f0c0;
+    text-align: left;
+    font-size: 1.60rem;
+}
+
+article h4 {
+    color: #f7f0c0;
+    text-align: center;
+    font-size: 1.50rem;
+    margin-bottom: 15px;
+
 }
 
 article p {
@@ -68,25 +100,12 @@ article p {
     margin-bottom: 25px;
 }
 
-.img-right {
-    float: right;
-    margin: 25px 30px;
-    max-width: 45%;
-    border-radius: 10px;
-}
-
-article h3 {
+th {
     color: #f7f0c0;
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 25px;
 }
 
-.img-left {
-    float: left;
-    margin: 30px 25px 0;
-    max-width: 55%;
-    border-radius: 10px;
+td {
+    color: #eee;
 }
 
 footer {
@@ -96,7 +115,7 @@ footer {
     margin-top: 80px;
 }
 
-footer h4 {
+footer h5 {
     color: #f7f0c0;
     margin-bottom: 15px;
     font-size: 1.4rem;
