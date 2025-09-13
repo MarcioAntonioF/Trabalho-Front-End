@@ -58,16 +58,17 @@ article {
 
 article h2 {
     color: #f7f0c0;
-    text-align: center;
     font-size: 2rem;
     margin-bottom: 25px;
     margin-top: 40px;
 }
 
-article h3 {
+.h2_servicos {
     color: #f7f0c0;
+    text-align: center;
     font-size: 2rem;
     margin-bottom: 25px;
+    margin-top: 40px;
 }
 
 article p {
@@ -75,17 +76,76 @@ article p {
     margin-bottom: 25px;
 }
 
-.img-cardapio {
+.img_right_inicio {
+    float: right;
+    margin: 25px 30px;
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+.img_left_inicio {
+    float: left;
+    margin: 30px 25px 0;
+    max-width: 55%;
+    border-radius: 10px;
+}
+
+.h3_inicial {
+    color: #f7f0c0;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.h3_contatos {
+    color: #f7f0c0;
+    text-align: left;
+    font-size: 1.60rem;
+}
+
+.h3_servicos {
+    color: #f7f0c0;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.h4_contatos {
+    color: #f7f0c0;
+    text-align: center;
+    font-size: 1.50rem;
+    margin-bottom: 15px;
+}
+
+.img_contatos {
+    float: right;
+    border-radius: 10px;
+    margin: 25px 30px;
+    max-width: 52%;
+}
+
+.img_center_cardapio {
     float: center;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 50px;
 }
 
-.img-rodizio {
+.img_right_rodizio {
     float: right;
     margin: 30px 25px 0;
     border-radius: 10px;
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    color: #f7f0c0;
+}
+
+td {
+    color: #eee;
 }
 
 footer {
@@ -96,6 +156,12 @@ footer {
 }
 
 footer h4 {
+    color: #f7f0c0;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+}
+
+.h5_contatos {
     color: #f7f0c0;
     margin-bottom: 15px;
     font-size: 1.4rem;
