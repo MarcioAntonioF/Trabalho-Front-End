@@ -1,11 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     font-family: Serif Bold;
-    background-color: #111;
+    background-color: #0a0a0a;
     color: #eee;
     line-height: 1.8;
     font-size: 1.25rem;
@@ -20,30 +23,29 @@ header {
 }
 
 header h1 {
-    color: #f7f0c0;
+    color: #f3eece;
     font-size: 2.4rem;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
 
-nav ul {
-    list-style: none;
+header nav ul {
     display: flex;
     justify-content: center;
-    gap: 35px;
-    margin-bottom: 15px;
+    gap: 2.5rem;
+    list-style: none;
 }
 
 nav a {
     color: #eee;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #f7f0c0;
+    color: #f3eece;
 }
 
 main {
@@ -57,14 +59,14 @@ article {
 }
 
 article h2 {
-    color: #f7f0c0;
+    color: #f3eece;
     font-size: 2rem;
     margin-bottom: 25px;
     margin-top: 40px;
 }
 
 .h2_servicos {
-    color: #f7f0c0;
+    color: #f3eece;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 25px;
@@ -91,26 +93,26 @@ article p {
 }
 
 .h3_inicial {
-    color: #f7f0c0;
+    color: #f3eece;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 25px;
 }
 
 .h3_contatos {
-    color: #f7f0c0;
+    color: #f3eece;
     text-align: left;
     font-size: 1.60rem;
 }
 
 .h3_servicos {
-    color: #f7f0c0;
+    color: #f3eece;
     font-size: 2rem;
     margin-bottom: 25px;
 }
 
 .h4_contatos {
-    color: #f7f0c0;
+    color: #f3eece;
     text-align: center;
     font-size: 1.50rem;
     margin-bottom: 15px;
@@ -124,7 +126,8 @@ article p {
 }
 
 .img_center_cardapio {
-    float: center;
+    display: flex;
+    justify-self: center;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 50px;
@@ -141,7 +144,7 @@ table {
 }
 
 th {
-    color: #f7f0c0;
+    color: #f3eece;
 }
 
 td {
@@ -156,13 +159,113 @@ footer {
 }
 
 footer h4 {
-    color: #f7f0c0;
+    color: #f3eece;
     margin-bottom: 15px;
     font-size: 1.4rem;
 }
 
+.voltar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 15px;
+}
+
 .h5_contatos {
-    color: #f7f0c0;
+    color: #f3eece;
     margin-bottom: 15px;
     font-size: 1.4rem;
+}
+
+.body_pedidos {
+    font-family: Serif Bold;
+    background-color: #0a0a0a;
+
+}
+
+.h1_pedidos {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #f3eece;
+    padding-bottom: 20px;
+    padding-top: 25px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.container {
+    display: flex;
+    background-color: #f3eece;
+    padding: 35px;
+    gap: 20px;
+    align-items: flex-start;
+    border-radius: 15px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+}
+
+.textos input {
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+.textos select {
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+.textos textarea {
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+.textos select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.textos textarea {
+    height: 120px;
+    resize: none;
+}
+
+.enviar {
+    display: flex;
+    align-self: end;
+}
+
+.enviar button {
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: #75242b;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enviar button:hover {
+    background-color: #c70000;
 }
